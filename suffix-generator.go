@@ -48,7 +48,7 @@ func main() {
 	var suffix = flag.String("suffix", "12345", "Address suffix, for example 0x12345 or 0xfffff")
 	flag.Parse()
 
-	log.Printf("Number of threads %v\nGenerating address with suffix %v", threadsFlag, suffix)
+	log.Printf("Number of threads %v\nGenerating address with suffix %v", *threadsFlag, *suffix)
 
 	for n := 0; n != *threadsFlag; n++ {
 		go worker(*suffix)
