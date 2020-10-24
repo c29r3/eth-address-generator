@@ -3,7 +3,7 @@ Generates a private key that matches the suffix
 
 ## Build from source  
 ```
-go get https://github.com/c29r3/eth-address-generator.git \
+git clone https://github.com/c29r3/eth-address-generator.git \
 && cd eth-address-generator \
 && go get github.com/ethereum/go-ethereum/crypto \
 && go build suffix-generator.go
