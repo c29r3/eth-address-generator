@@ -1,13 +1,19 @@
 # eth-address-generator  
 Generates a private key that matches the suffix  
 
-## Build from source  
+## Install
 ```
 git clone https://github.com/c29r3/eth-address-generator.git \
 && cd eth-address-generator \
 && go get github.com/ethereum/go-ethereum/crypto \
 && go build suffix-generator.go
 ```  
+
+Or download binary file for linux x64
+```
+wget https://github.com/c29r3/eth-address-generator/releases/download/v0.1/suffix-generator-linux \
+&& chmod u+x suffix-generator-linux
+```
 
 ## Usage  
 ```
